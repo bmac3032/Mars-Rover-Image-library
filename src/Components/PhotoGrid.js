@@ -8,7 +8,7 @@ const PhotoGrid = () => {
   }, []);
   console.log(photos);
   return (
-    <div>
+    <div className="container">
       {photos.map((p) => {
         return <img src={p.img_src}></img>;
       })}
