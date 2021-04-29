@@ -9,13 +9,6 @@ const PhotoGrid = () => {
   }, []);
   console.log(photos);
   return (
-<<<<<<< HEAD
-    <div className="container">
-      {photos.map((p) => {
-        return <img src={p.img_src}></img>;
-      })}
-    </div>
-=======
     <SRLWrapper>
       <div className="container">
         <div className="row">
@@ -42,7 +35,6 @@ const PhotoGrid = () => {
         </div>
       </div>
     </SRLWrapper>
->>>>>>> styling
   );
 };
 
