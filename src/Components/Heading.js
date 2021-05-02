@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = () => {
   return (
-    <header>
+    <header className="m-4">
       <h1 className="display-4">Mars Rover Photos</h1>
       <p className="lead">These photos are taken from the surface of mars</p>
       <p className="lead">All photos are courtesy of NASA</p>
